@@ -1,0 +1,20 @@
+{%extends 'base.html'%}{%load static%}{%block content%}
+<!----Homepage----->
+<section class="home d-flex align-items-center justify-content-center" id="home" >
+            
+    <!------Background video------------->
+    <video class="background-video" autoplay loop muted>
+        <source src="/static/img/Background_video.mp4" type="video/mp4">
+        Your browser doen not support the video tag.
+    </video>
+
+    <!-------content-------------->
+    <div class="content text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">I'm Arya Kunjumon</h1>
+            <h3 class="lead" >Software Developer and Educator</h3>
+            <a href="https://www.geeksforgeeks.org/" class="btn btn-custom mt-3" download >Download Resume</a>
+        </div>
+    </div>
+</section>
+{%endblock%}
