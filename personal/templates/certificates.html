@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- Certifications Section -->
+<section id="certificates" class="py-5">
+  <div class="container">
+    <h2>Certifications</h2>
+    <div class="row justify-content-center">
+    
+      <!-- Coursera Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="coursera-icon">
+              <img src="{% static 'img/logo.png' %}" alt="Coursera Logo">
+            </div>
+            <h5 class="card-title">Coursera</h5>
+            <p class="card-text">Meta Back-End Developer Professional Certificate</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- LinkedIn Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="coursera-icon">
+              <img src="{% static 'img/logo2.png' %}" alt="LinkedIn Logo">
+            </div>
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">What is Generative AI?</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coursera AWS Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="coursera-icon">
+              <img src="{% static 'img/logo.png' %}" alt="Coursera Logo">
+            </div>
+            <h5 class="card-title">Coursera</h5>
+            <p class="card-text">AWS Fundamentals Certificate</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -18,7 +18,7 @@ def skills(request):
     return render(request,'skills.html')
 
 def certificates(request):
-    return render(request,'awards.html')
+    return render(request,'certificates.html')
 
 def contact(request):
     form=ContactForm()

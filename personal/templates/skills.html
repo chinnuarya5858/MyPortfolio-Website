@@ -1,46 +1,74 @@
-{%extends 'base.html'%}{%load static%}{%block content%}
- <!------------Skills--------------->
- <div id="skills">
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- Skills Section -->
+<section id="skills" class="skill-section py-5">
+  <div class="container text-center">
     <h2>Skills</h2>
-</div>
-<div class="skills-container">
-    <div class="circle" style="--value: 90;">
-        <div class="inner-circle">Python</div>
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="circle" style="--value: 90;">
+          <div class="inner-circle">Python</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="circle" style="--value: 60;">
+          <div class="inner-circle">Django</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="circle" style="--value: 50;">
+          <div class="inner-circle">CSS</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="circle" style="--value: 95;">
+          <div class="inner-circle">HTML</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="circle" style="--value: 90;">
+          <div class="inner-circle">SQL</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="circle" style="--value: 20;">
+          <div class="inner-circle">Cloud</div>
+        </div>
+      </div>
     </div>
-    <div class="circle" style="--value: 60;">
-        <div class="inner-circle">Django</div>
-    </div>
-    <div class="circle" style="--value: 50;">
-        <div class="inner-circle">CSS</div>
-    </div>
-    <div class="circle" style="--value: 95;">
-        <div class="inner-circle">HTML</div>
-    </div>
-    <div class="circle" style="--value: 90">
-        <div class="inner-circle">SQL</div>
-    </div>
-    <div class="circle" style="--value:20">
-        <div class="inner-circle">Cloud Computing</div>
-    </div>
-</div>
-<div id="projects">
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
     <h2>Projects</h2>
-</div>
-<div class="projects-container">
-    <div class="project-card">
-        <h3>Resturant Reservation System</h3>
-        <p>A Django-based web app where users can register,login, and book resturant tables with real-time availability checks and alert mechanisms for reserved tables.</p>
-        <p><strong>Tech:</strong>Django,HTML,CSS,SQLite</p>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="project-card h-100">
+          <h3>Restaurant Booking System</h3>
+          <p>A Django-based web app for restaurant reservations with secure user authentication,role-based admin management,and full CRUD functionality for bookings,and user profile,backed by MySQL for data storage.</p>
+          <p><strong>Tech:</strong> Python, Django, HTML, CSS, JavaScript, MySQL</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="project-card h-100">
+          <h3>Personal Portfolio Website</h3>
+          <p>Built a sleek and adaptable personal portfolio using Django templates and Bootstrap, featuring smooth navigation and organized layouts to highlight projects, certifications, and skillsets.</p>
+          <p><strong>Tech:</strong>Python, Django, HTML, CSS, Bootstrap</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="project-card h-100">
+          <h3>Language Learning Flashcards App</h3>
+          <p>Developed an interactive flashcard platform for vocabulary review with user authentication and full CRUD capabilities using Django REST Framework and MySQL.</p>
+          <p><strong>Tech:</strong>Python, Django, REST APIs, MySQL, HTML, CSS, JavaScript</p>
+        </div>
+      </div>
     </div>
-    <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>A personal portfolio showcasing skills and projects using responsive design and modern web styling techniques.</p>
-        <p><strong>Tech:</strong>HTML,CSS,JS</p>
-    </div>
-    <div class="project-card">
-        <h3>Language Learning Flashcards</h3>
-        <p>A web-based flashcard tool help users memorize vocabulary and phrases in different langugaes.User can flip cards for translations,track progress and shuffle cards to challenge recall.</p>
-        <p><strong>Tech:</strong>HTML,CSS,Javascript,Django</p>
-    </div>
-</div>
-{%endblock%}
+  </div>
+</section>
+
+{% endblock %}
