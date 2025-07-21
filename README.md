@@ -34,7 +34,8 @@ A personal portfolio web application built using Django and Bootstrap to showcas
   ![](screenshots/education.png)
 
 * 💼 **Skills & Projects Section**
-  ![](screenshots/skills_projects.png)
+  ![](screenshots/skills.png)
+  ![](screenshots/projects.png)
 
 * 📜 **Certificates Section**
   ![](screenshots/certificates.png)
