@@ -37,5 +37,3 @@ def contact(request):
             return redirect('contact')
     return render(request,'contact.html',{'form':form})
 
-def base(request):
-    return render(request,'homepage.html')

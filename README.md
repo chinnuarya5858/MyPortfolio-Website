@@ -1,6 +1,6 @@
 # 🧑‍💻 Personal Portfolio Website
 
-A personal portfolio web application built using Django and Bootstrap to showcase projects, certifications, and skills. The site features a clean layout, responsive design, and an organized display of content to highlight technical proficiency.
+A personal portfolio web application built using Django and Bootstrap to showcase education, projects, certifications, and skills. The site features a clean layout, responsive design, and an organized display of content to highlight technical proficiency.
 
 ---
 
@@ -16,7 +16,8 @@ A personal portfolio web application built using Django and Bootstrap to showcas
 ## 🔑 Key Features
 
 * ✅ Responsive portfolio layout
-* ✅ Sections for Projects, Skills, and Certificates
+* ✅ Can download resume
+* ✅ Sections for Education, Projects, Skills, and Certificates
 * ✅ Smooth navigation using Bootstrap components
 * ✅ Django-based template structure for maintainability
 

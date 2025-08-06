@@ -9,6 +9,4 @@ urlpatterns=[
     path('skills/',views.skills,name='skills'),
     path('certificates/',views.certificates,name='certificates'),
     path('contact/',views.contact,name='contact'),
-    path('base/',views.base),
-
 ]
